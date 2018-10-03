@@ -1,2 +1,3 @@
 test/*
 proj/produtos/migrations
+.pyc
