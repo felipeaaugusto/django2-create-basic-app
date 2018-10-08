@@ -6,7 +6,6 @@ from .models import Produto
 def home(request):
     nome = 'Django MOC'
     produtos = Produto.objects.all()
-    # produtos = Produto.objects.get(id=1)
     return render(request, 'produtos.html', {'produtos': produtos})
 
 def produto(request, codigo):
